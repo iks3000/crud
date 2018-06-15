@@ -1,0 +1,30 @@
+{
+  "record1": {
+    "firstName": "Ivan",
+    "lastName": "Kostyanov",
+    "city": "Kharkiv",
+    "zipCode": "00101",
+    "id": 1
+  },
+  "record2": {
+    "firstName": "Vasya",
+    "lastName": "Vasin",
+    "city": "Kyiv",
+    "zipCode": "00202",
+    "id": 2
+  },
+  "record3": {
+    "firstName": "Petya",
+    "lastName": "Petin",
+    "city": "Lviv",
+    "zipCode": "00303",
+    "id": 3
+  },
+  "record4": {
+    "firstName": "Kostya",
+    "lastName": "Ivanov",
+    "city": "Odessa",
+    "zipCode": "00404",
+    "id": 4
+  }
+}
