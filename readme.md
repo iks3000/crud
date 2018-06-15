@@ -27,7 +27,7 @@ curl -X GET \
 **Read by id**
 ```
 curl -X GET \
-  http://localhost:8080/api/records/1
+  http://localhost:8080/api/records/:id
 ```
 
 **Create**
@@ -41,7 +41,7 @@ curl -X POST \
 **Update by id**
 ```
 curl -X PUT \
-  http://localhost:8080/api/records/1 \
+  http://localhost:8080/api/records/:id \
   -H "Content-Type: application/json" \
   -d '{"key1": "val1", "key2": "val2"}'
 ```
@@ -49,5 +49,5 @@ curl -X PUT \
 **Delete by id**
 ```
 curl -X DELETE \
-  http://localhost:8080/api/records/1 \
+  http://localhost:8080/api/records/:id \
 ```
